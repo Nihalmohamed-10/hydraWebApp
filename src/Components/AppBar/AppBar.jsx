@@ -11,7 +11,7 @@ function AppBar() {
   return (
     <div className="appbar">
       <div className="appbarLogo">
-        <img src="./src/assets/images/Group 2 (1) 1.png" alt="img" />
+        <img src="/images/Group 2 (1) 1.png" alt="img" />
       </div>
 
       <div className={`appbarList ${isMenuOpen ? "show" : ""}`}>

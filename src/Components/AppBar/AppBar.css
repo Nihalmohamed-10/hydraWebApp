@@ -1,19 +1,19 @@
 .appbar {
-    background: transparent;
+  background: transparent;
   padding: 30px;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 30px;
-  position: absolute; 
-  width: 96%; 
+  position: absolute;
+  width: 96%;
   z-index: 10;
   background: transparent;
   border-bottom: 0.1px solid rgb(134, 131, 131);
 }
 
-.appbarLogo img{
+.appbarLogo img {
   width: 100%;
   display: block;
 }
@@ -38,12 +38,12 @@
 }
 
 .appbarList a:hover {
-  color: #050505; 
+  color: #050505;
 }
 .appbarIcon {
   width: 47px;
-    height: 43px;
-    border-radius: 22px;
+  height: 43px;
+  border-radius: 22px;
   background-color: green;
   position: relative;
 }
@@ -81,75 +81,82 @@
 .appbarList.show {
   display: block;
   position: absolute;
-  top: 50px; 
+  top: 91px;
+  height: 520px;
   right: 0;
-  width: 250px; 
-  background-color: black;
+  width: 96%;
+  background-color: #061e39;
   color: white;
-  text-align: left; 
-  padding: 10px; 
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5); 
-  border-left: 1px solid rgb(134, 131, 131);
+  /* text-align: left;  */
+  padding: 10px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  /* border-left: 1px solid rgb(134, 131, 131); */
 }
 
 .appbarList.show a {
-  display: block; 
-  padding: 10px 0; 
-  text-align: left; 
+  text-align: center;
+
+  display: block;
+  padding: 20px 0;
+  /* text-align: left;  */
   color: rgb(239, 237, 237);
 }
 
 .appbarList.show a:hover {
-  color: #00bcd4; 
+  color: #00bcd4;
 }
 
-
-@media all and (max-width:1080px){
-  .appbar{
+@media all and (max-width: 1080px) {
+  .appbar {
     width: 94%;
     justify-content: space-between;
   }
-  .appbarList{
+  .appbarList {
     width: 50%;
   }
   /*  */
-  @media all and (max-width:981px){
-    .appbarList, .appBarContacts {
+  @media all and (max-width: 981px) {
+    .appbarList,
+    .appBarContacts {
       display: none;
     }
-    
-  
+
     .hamburger {
       display: flex;
     }
-    .appbar{
+    .appbar {
       width: 93%;
     }
-  
+
     .appbarList.show {
+      margin: 0 auto;
       display: block;
+      width: 80%;
+      padding: 0px;
     }
   }
   /*  */
 
-@media all and (max-width:771px){
-  .appbarList{
-    display: none;
+  @media all and (max-width: 771px) {
+    .appbarList {
+      display: none;
+    }
+    .appbar {
+      width: 92%;
+    }
   }
-  .appbar{
-    width: 92%;
+  @media all and (max-width: 641px) {
+    .appbar {
+      width: 86%;
+    }
   }
-}
-@media all and (max-width:641px){
-  .appbar{
-    width: 86%;
+  .appbarLogo {
+    width: 200px;
   }
-}
-.appbarLogo{
-  width: 200px;
-}
-
-/* @media all and (max-width:641px){
+  .appbarList.show {
+    left: 0px;
+  }
+  /* @media all and (max-width:641px){
   .appbar{
     width: 90%;
   }
