@@ -1,3 +1,4 @@
+/* General Styles */
 .MiddleHead {
   margin-top: 200px;
   display: flex;
@@ -65,13 +66,12 @@
 }
 .arrowbtn img {
   position: relative;
-  color: white;
   border-radius: 25px;
   left: 10px;
   top: 13px;
 }
 .arrowbtn img:hover {
-  color: green;
+  color: green; /* This property has no effect on images. Consider removing. */
 }
 .justEveryThingp {
   font-size: 14px;
@@ -104,6 +104,8 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+/* Media Queries */
 @media all and (max-width: 1080px) {
   .MidCards {
     flex-wrap: wrap;
@@ -122,6 +124,7 @@
     width: 62%;
   }
 }
+
 @media all and (max-width: 771px) {
   .MiddleHead {
     flex-wrap: wrap;
@@ -133,8 +136,9 @@
     width: 416px;
   }
 }
+
 @media all and (max-width: 641px) {
-  .middle {
+  .MiddleHead {
     margin-top: 0px;
   }
   .Middlep {
