@@ -64,7 +64,6 @@
   background-color: rgb(245, 245, 249);
 }
 .arrowbtn img {
-  /* background-color: green; */
   position: relative;
   color: white;
   border-radius: 25px;
@@ -95,7 +94,6 @@
   width: 100%;
   display: block;
 }
-
 .MidCardP {
   position: absolute;
   left: 16px;
