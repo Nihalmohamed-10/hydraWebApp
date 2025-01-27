@@ -1,0 +1,27 @@
+
+[
+    {
+        "img":"./src/assets/images/image 3.png",
+        "key":1,
+        "content":"Temperature and Humidity Data Loggers",
+        "btnContent":"Request For Quote"
+    },
+    {
+        "img":"./src/assets/images/image 3 (1).png",
+        "key":2,
+        "content":"Nitrile, Latex, Vinyl Gloves",
+        "btnContent":"Request For Quote"
+    },
+    {
+        "img":"./src/assets/images/Water-Bath-removebg-preview 1.png",
+        "key":3,
+        "content":"Water Bath",
+        "btnContent":"Request For Quote"
+    },
+    {
+        "img":"./src/assets/images/Horizontal_Multi-Stage_Close_Coupled_Pump-removebg-preview 1 (1).png",
+        "key":4,
+        "content":"Horizontal Multi-Stage Close Coupled Pump",
+        "btnContent":"Request For Quote"
+    }
+]

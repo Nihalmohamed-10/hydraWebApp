@@ -1,0 +1,135 @@
+.footer {
+  background-image: url("./src/assets/images/image 2.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 650px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.footH3 {
+  font-size: 20px;
+  font-weight: 700;
+  width: 500px;
+  color: #2e3192;
+}
+.footH1 {
+  font-size: 44px;
+  font-weight: 700;
+  width: 594px;
+}
+.footP {
+  font-size: 15px;
+  font-weight: 400;
+  width: 760px;
+}
+.footMapDiv h1 {
+  color: #3e41b5;
+  font-size: 100px;
+  border-bottom: 2px solid rgb(97, 244, 97);
+}
+.footMapDiv p {
+  font-weight: 600;
+}
+@media all and (max-width: 1081px) {
+  .footP {
+    width: 547px;
+  }
+}
+@media all and (max-width: 771px) {
+  .footer {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-position-y: 731px;
+    background-size: 61%;
+    background-position-x: 112px;
+  }
+}
+
+@media all and (max-width: 641px) {
+  .footH3 {
+    max-width: 285px;
+  }
+  .footer{
+    background-position-y: 901px;
+    background-size: 95%;
+    background-position-x: 22px;
+  }
+  .footH1 {
+    font-size: 26px;
+    max-width: 285px;
+  }
+  .footP {
+    max-width: 286px;
+  }
+}
+/* 
+@media all and (max-width:481px){
+  .footer{
+    background-position-y: 804px;
+    background-size: 90%;
+    background-position-x: 36px;
+
+  }
+  .footH3{
+    width: 400px;
+
+  }
+  .footH1{
+    width: 440px;
+
+  }
+  .footP{
+    width: 400px;
+  }
+}
+
+@media all and (max-width:381px){
+  .footer{
+    background-position-y: 886px;
+    background-size: 93%;
+  }
+  .footH3{
+    width: 273px;
+  }
+  .footH1{
+    width: 330px;
+    font-size: 36px;
+  }
+  .footP{
+    width: 320px;
+  }
+}
+
+@media all and (max-width:321px){
+ .footbadge{
+  width: 80%;
+ }
+ .footH1{
+  font-size: 30px;
+  width: 260px;
+ }
+ .footP{
+  width: 260px;
+ }
+ .footbadge img{
+  width: 200px;
+ }
+} */
+/* @media all and (max-width: 1080px) {
+  .footP {
+    width: 613px;
+  }
+  .footer {
+    background-position-x: 455px;
+    background-size: 41%;
+    background-position-y: 85px;
+  }
+}
+@media all and (max-width:1020px){
+    .footer{
+        margin-top: 90px;
+    }
+} */

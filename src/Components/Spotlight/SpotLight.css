@@ -1,0 +1,435 @@
+.spotlight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  flex-direction: column;
+  padding: 50px;
+}
+
+.imageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  z-index: -1;
+}
+
+.spotImage {
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+.SpotContent {
+ 
+  z-index: 1;
+  color: white;
+  width: 80%; 
+  margin-left: 40px; 
+}
+
+.SpotHead {
+  margin-top: 250px;
+}
+
+.SpotHead h1 {
+  width: 542px;
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.spotpara p {
+  padding-left: 0;
+  color: white;
+  width: 600px;
+  margin-left: 0;
+}
+
+.SpotCardsMain {
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.SpotCards {
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid white;
+  background-color: rgb(243, 240, 240);
+  border-radius: 10px;
+}
+
+.SpotCards p {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.spotcardPara {
+  width: 136px;
+}
+
+.spotEnd {
+  margin-top: 130px;
+  display: flex;
+  width: 523px;
+  right: 0px;
+  justify-content: space-evenly;
+  position: absolute;
+
+}
+
+.spotEnd p {
+  font-size: 16px;
+  color: rgb(239, 236, 236);
+}
+
+.spotEnd button {
+  border-radius: 0px;
+  background-color: #65b530;
+  color: white;
+  font-size: 20px;
+}
+
+@media all and (max-width: 1080px) {
+  .spotEnd {
+    right: 0px;
+    bottom: 0px;
+  }
+  .imageWrapper{
+    height: 620px;
+  }
+  .imageWrapper img{
+    height: 100%;
+  }
+  .SpotHead h1{
+    font-size: 45px;
+    margin-top: 200px;
+  }
+  .spotpara p{
+    font-size: 16px;
+  }
+  .SpotCards{
+    width: 200px;
+    padding: 1px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .spotEnd {
+    right: 0px;
+    bottom: 0px;
+  }
+  .imageWrapper{
+    height: 646px;
+  }
+  .spotlight{
+    height: 542px;
+  }
+}
+
+@media all and (max-width: 771px){
+  .SpotContent{
+    margin-left: 1px;
+  }
+  .SpotHead h1{
+    font-size: 36px;
+    width: 305px;
+  }
+  .spotEnd{
+    right: 26px;
+  }
+ 
+}
+@media all and (max-width:641px){
+  .spotpara p{
+    width: 274px;
+  }
+  .SpotHead h1{
+    width: 230px;
+    font-size: 30px;
+  }
+  .spotpara p{
+    width: 240px;
+  }
+  .SpotCardsMain{
+    flex-wrap: wrap;
+  }
+  .spotcardPara p{
+    font-size: 12px;
+    
+  }
+  .imageWrapper{
+    height: 918px;
+  }
+  .spotEnd{
+    flex-wrap: wrap;
+    bottom: 0px;
+    left: 0px;
+
+    width: 346px;
+  }
+  .spotlight{
+    height: 780px;
+  }
+}
+
+/* .spotlight {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  flex-direction: column;
+  padding: 50px;
+}
+
+.imageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  z-index: -1;
+}
+
+.spotImage {
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+.SpotContent {
+  position: relative;
+  z-index: 1;
+  color: white;
+  width: 80%; 
+  margin-left: 40px; 
+}
+
+.SpotHead {
+  margin-top: 250px;
+}
+
+.SpotHead h1 {
+  width: 542px;
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.spotpara p {
+  padding-left: 0;
+  color: white;
+  width: 600px;
+  margin-left: 0;
+}
+
+.SpotCardsMain {
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.SpotCards {
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid white;
+  background-color: rgb(243, 240, 240);
+  border-radius: 10px;
+}
+
+.SpotCards p {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.spotcardPara {
+  width: 136px;
+}
+
+.spotEnd {
+  margin-top: 130px;
+  display: flex;
+  width: 523px;
+  justify-content: space-evenly;
+  position: absolute;
+  right: -279px;
+  bottom: -190px;
+}
+
+.spotEnd p {
+  font-size: 16px;
+  color: rgb(239, 236, 236);
+}
+
+.spotEnd button {
+  border-radius: 0px;
+  background-color: #65b530;
+  color: white;
+  font-size: 20px;
+}
+
+@media all and (max-width: 1080px) {
+  .spotEnd {
+    right: -206px;
+    bottom: -52px;
+  }
+  .imageWrapper{
+    height: 620px;
+  }
+  .imageWrapper img{
+    height: 100%;
+  }
+  .SpotHead h1{
+    font-size: 45px;
+    margin-top: 200px;
+  }
+  .spotpara p{
+    font-size: 16px;
+  }
+  .SpotCards{
+    width: 200px;
+    padding: 1px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .spotEnd {
+    right: -180px;
+    bottom: -80px;
+  }
+  .imageWrapper{
+    height: 646px;
+  }
+}
+
+@media all and (max-width: 771px){
+  .SpotContent{
+    margin-left: 1px;
+  }
+  .SpotHead h1{
+    font-size: 36px;
+    width: 305px;
+  }
+  .spotEnd{
+    right: 26px;
+  }
+}
+@media all and (max-width:641px){
+  .spotpara p{
+    width: 274px;
+  }
+  .SpotHead h1{
+    width: 230px;
+    font-size: 30px;
+  }
+  .spotpara p{
+    width: 240px;
+  }
+  .SpotCardsMain{
+    flex-wrap: wrap;
+  }
+  .spotcardPara p{
+    font-size: 12px;
+    
+  }
+  .imageWrapper{
+    height: 775px;
+  }
+  .spotEnd{
+    width: 275px;
+    flex-wrap: wrap;
+    bottom: -104px;
+    right: -38px;
+  }
+  .spotlight{
+    height: 500px;
+  }
+}  */
+/* @media all and (max-width:641px){
+  .spotpara p{
+    width: 445px;
+  }
+  .spotEnd{
+    left: 20px;
+  }
+  .SpotContent{
+    margin-left: -22px;
+  }
+  .SpotHead{
+    margin-top: 230px;
+  }
+}
+
+@media all and (max-width:481px){
+  .SpotHead{
+    margin-top: 200px;
+  }
+  .imageWrapper{
+    height:100%;
+  }
+  .SpotCardsMain{
+    flex-wrap: wrap;
+  }
+ 
+  
+  .SpotCardsWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .SpotContent{
+    margin-bottom: 20px;
+  }
+  .spotEnd button{
+    font-size: 16px;
+  }
+  .spotEnd{
+    bottom: -63px;
+    left: -31px;
+    width: 478px;
+  }
+}
+
+@media all and (max-width:381px){
+  .spotpara p{
+    width: 324px;
+  }
+  .spotEnd{
+    width: 380px;
+    bottom: -80px;
+    flex-wrap: wrap;
+  }
+  .spotlight{
+    height: 722px;
+  }
+}
+
+@media all and (max-width:321px){
+  .SpotHead h1{
+    width: 277px;
+  }
+  .spotpara p{
+    width: 282px;
+  }
+ 
+  .spotEnd{
+    width: 320px;
+  }
+  .SpotCards{
+    gap: 10px;
+  }

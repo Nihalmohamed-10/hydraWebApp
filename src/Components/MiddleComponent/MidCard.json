@@ -1,0 +1,24 @@
+
+[
+    {
+        "img":"./src/assets/images/Untitled-design-39 1 (4).jpg",
+        "key":1,
+        "content":"laboratory equipments"
+    },
+    {
+        "img":"./src/assets/images/Untitled-design-39 1 (1).jpg",
+        "key":2,
+        "content":"Food Analysis"
+    },
+    {
+        "img":"./src/assets/images/Untitled-design-39 1 (2).jpg",
+        "key":3,
+        "content":"Water Analysis/ Treatment"
+    },
+    {
+        "img":"./src/assets/images/Untitled-design-39 1.jpg",
+        "key":4,
+        "content":"Laboratory Instruments"
+    }
+    
+]

@@ -1,0 +1,243 @@
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(203, 202, 202);
+}
+.section3p {
+  font-size: 20px;
+  width: 380px;
+  font-weight: 600;
+  color: #2e3192;
+  padding-left: 80px;
+}
+.section3h1 {
+  font-size: 44px;
+  font-weight: 800;
+  padding-left: 80px;
+  width: 500px;
+}
+.Lab {
+  display: flex;
+  justify-content: space-evenly;
+}
+.labequipments {
+  width: 133px;
+  border-right: 1px solid rgb(225, 220, 220);
+}
+.labequipments p {
+  font-size: 16px;
+}
+.Equipment {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px; 
+  position: relative;
+}
+
+.equipmentDIV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+  height: 380px;
+  box-sizing: border-box;
+}
+
+.equipImg img {
+  background-color: #f4f4f4bd;
+  width: 200px;
+  display: block;
+}
+
+.equipImg {
+  background-color: #f4f4f4bd;
+  padding: 10px;
+  width: 200px;
+  height: 250px;
+}
+
+.equipP p {
+  width: 200px;
+  /* text-align: center; */
+}
+
+.equipbtn {
+  width: 100%; 
+}
+
+.equipbtn button {
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  width: 150px;
+  font-size: 10px;
+  margin-left: 13px;
+}
+
+.discover {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0e63ff;
+  padding: 10px;
+  align-items: center;
+}
+.discover p {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.discover button {
+  border-radius: 0px;
+  font-size: 14px;
+  padding: 10px;
+  width: 250px;
+}
+/*  */
+.tab {
+  width: 140px;
+}
+
+.tabs {
+  text-transform: none; 
+}
+
+.MuiTabs-flexContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  border: none;
+
+}
+
+.MuiTab-root {
+  width: 150px;
+  flex: 1 1 auto; 
+  max-width: none;
+  min-width: 100px; 
+  text-align: center;
+  border: none;
+}
+/* .MuiButtonBase-root{
+  
+} */
+/*  */
+
+@media all and (max-width: 1080px) {
+  .equipbtn button {
+    margin-left: 7px;
+  }
+  .labequipments {
+    width: 109px;
+  }
+}
+@media all and (max-width: 1080px) {
+  .labequipments {
+    width: 100px;
+  }
+  .Equipment {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .equipbtn button {
+    margin-left: 86px;
+  }
+}
+@media all and (max-width: 981px) {
+ 
+  .equipbtn button {
+    margin-left: 70px;
+  }
+}
+@media all and (max-width: 771px) {
+  .equipbtn button {
+    margin-left: 28px;
+  }
+  .labequipments {
+    width: 134px;
+    border-right: none;
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 220, 220);
+  }
+  .Lab {
+    flex-wrap: wrap;
+  }
+}
+@media all and (max-width:641px){
+  .section3p{
+    width: auto;
+    padding-left: 30px;
+  }
+  .section3h1{
+    font-size: 26px;
+    
+    padding-left: 37px;
+    max-width: 307px;
+  }
+  .Equipment{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .discover{
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .equipbtn button{
+      margin-left: 30px;
+    }
+}
+/* 
+@media all and (max-width: 641px) {
+  .equipbtn button {
+    margin-left: 3px;
+  }
+  .discover{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 481px) {
+  .section3p {
+    font-size: 18px;
+    padding-left: 45px;
+  }
+  .section3h1 {
+    font-size: 30px;
+    padding-left: 27px;
+    width: 420px;
+  }
+  .Equipment {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+  .equipbtn button {
+    margin-left: 42px;
+  }
+}
+
+@media all and (max-width: 381px) {
+  .section3p {
+    width: 232px;
+    padding-left: 30px;
+  }
+  .section3h1{
+    width: 280px;
+  }
+  .equipbtn button{
+    margin-left: 6px;
+  }
+}
+@media all and (max-width:321px){
+ .section3h1{
+  font-size: 27px;
+  width: 232px;
+ } 
+ .equipbtn button{
+  margin-left: 8px;
+ }
+ 
+} */
