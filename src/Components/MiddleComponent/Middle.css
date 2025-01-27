@@ -5,35 +5,39 @@
   justify-content: space-evenly;
   padding: 40px;
 }
+
 .Middlep {
   font-size: 20px;
   width: 380px;
   font-weight: 600;
   color: #2e3192;
 }
+
 .Middleh1 {
   font-size: 44px;
   font-weight: 600;
   width: 500px;
 }
+
 .Vestibulum {
   border-right: 0.5px solid rgb(205, 202, 202);
-
   width: 610px;
 }
+
 .Middlepara {
   width: 526px;
 }
+
 .MiddleCardDiv {
   background-color: black;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 0 40px;
   color: white;
   padding: 30px;
   display: flex;
-  gap: 40px;
   flex-direction: column;
+  gap: 40px;
 }
+
 .MiddleCardDivh1 {
   width: 592px;
   font-size: 40px;
@@ -41,11 +45,13 @@
   padding-left: 50px;
   height: 156px;
 }
+
 .MiddleCardDivp {
   width: 1016px;
   font-size: 17px;
   padding-left: 57px;
 }
+
 .justEveryThing {
   margin-top: 40px;
   display: flex;
@@ -53,6 +59,7 @@
   justify-content: flex-end;
   gap: 20px;
 }
+
 .arrowbtn {
   background-color: green;
   border-radius: 25px;
@@ -61,24 +68,27 @@
   position: relative;
   cursor: pointer;
 }
-.arrowbtn:hover{
-    background-color: rgb(245, 245, 249);
+
+.arrowbtn:hover {
+  background-color: rgb(245, 245, 249);
 }
+
 .arrowbtn img {
-  /* background-color: green; */
   position: relative;
-  color: white;
   border-radius: 25px;
   left: 10px;
   top: 13px;
 }
-.arrowbtn img:hover{
-    color: green;
+
+.arrowbtn img:hover {
+  color: green;
 }
+
 .justEveryThingp {
   font-size: 14px;
   color: #9b9b9b;
 }
+
 .Download2022 {
   font-size: 15px;
 }
@@ -86,168 +96,90 @@
 .MidCards {
   display: flex;
   justify-content: space-evenly;
-  
-  
 }
+
 .MidCrds {
   position: relative;
   height: 353px;
   width: 263px;
   background-color: rgb(117, 56, 56);
 }
+
 .MidCardImg img {
   width: 100%;
   display: block;
 }
-/* .MidCardImg{
-   
-} */
+
 .MidCardP {
   position: absolute;
   left: 16px;
-  bottom: 0px;
+  bottom: 0;
   width: 187px;
 }
+
 .MidCardP p {
   font-size: 20px;
   font-weight: 600;
 }
-@media all and (max-width:1080px){
-   .MidCards{
+
+/* Media Queries */
+@media all and (max-width: 1080px) {
+  .MidCards {
     flex-wrap: wrap;
     gap: 80px;
-   }
-   .MiddleHead{
+  }
+  .MiddleHead {
     margin-top: 20px;
-   }
-   .Vestibulum{
+  }
+  .Vestibulum {
     width: 500px;
-   }
-   .Middlepara p{
+  }
+  .Middlepara {
     padding-left: 20px;
-   }
-   .MiddleCardDivp{
+  }
+  .MiddleCardDivp {
     width: 62%;
-   }
-   
+  }
 }
-@media all and (max-width:771px)
-{
-  .MiddleHead{
+
+@media all and (max-width: 771px) {
+  .MiddleHead {
     flex-wrap: wrap;
   }
-  .Vestibulum{
+  .Vestibulum {
     border: none;
   }
-  .MiddleCardDivh1{
+  .MiddleCardDivh1 {
     width: 416px;
   }
 }
-@media all and (max-width:641px){
-  .middle{
-    margin-top: 0px;
+
+@media all and (max-width: 641px) {
+  .MiddleHead {
+    margin-top: 0;
   }
-  .Middlep{
+  .Middlep {
     width: 216px;
   }
-  .Middleh1{
+  .Middleh1 {
     font-size: 30px;
     width: auto;
   }
-  .MiddleCardDivh1{
+  .MiddleCardDivh1 {
     width: 232px;
     padding-left: 10px;
   }
-  .MiddleCardDivh1 p{
+  .MiddleCardDivh1 p {
     font-size: 26px;
   }
-  .MiddleCardDivp{
+  .MiddleCardDivp {
     padding-left: 15px;
     width: 90%;
   }
   .MidCrds {
-    position: relative;
     height: 353px;
   }
-  .Middlepara p{
-    padding-left: 0px;
-  }
-  /* .MidCardP{
-    bottom: 0px;
-  } */
-
-}
-/* @media all and (max-width:641px){
-  .MiddleCardDivh1{
-    width: 417px;
+  .Middlepara {
+    padding-left: 0;
   }
 }
-
-@media all and (max-width:481px){
-  .Vestibulum{
-    width: 441px;
-  }
-  .Middleh1{
-    font-size: 38px;
-    width: 403px;
-  }
-  .MiddleCardDivh1 p{
-    font-size: 30px;
-  }
-  .MiddleCardDivh1{
-    width: 298px;
-  }
-  .MiddleCardDiv{
-    gap: 55px;
-  }
-
-}
-
-
-@media all and (max-width:381px){
-  .Middlep{
-    font-size: 18px;
-    width: 233px;
-  }
-  .Middleh1{
-    font-size: 33px;
-    width: 271px;
-  }
-  .MiddleCardDivh1{
-    padding-left: 18px;
-    width: 230px;
-  }
-  .MiddleCardDivp{
-    padding-left: 39px;
-  }
-  .MidCardP{
-    top: 246px;
-  }
-}
-
-@media all and (max-width:321px){
- .MiddleCardDivh1 p{
-    font-size: 26px;
- } 
- .MiddleCardDiv{
-  margin-left: 28px;
-  margin-right: 28px;
- }
- .MiddleCardDivh1{
-  padding-left: 0px;
-  width: 205px;
- }
- .MiddleCardDivp{
-  padding-left: 0px;
-  width: 100%;
- }
- .arrowbtn{
-  width: 72px;
- }
- .MidCardP{
-  top: 196px;
- }
- .MidCrds{
-    height: 247px;
- }
-} */

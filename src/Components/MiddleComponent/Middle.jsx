@@ -1,5 +1,5 @@
 import React from "react";
-import './Middle.css'
+import './Middle.css';
 import MiddleCardDiv from "./MiddleCardDiv";
 function Middle() {
   return (
