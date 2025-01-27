@@ -1,7 +1,7 @@
 import React from "react";
 import './Middle.css'
 import MiddleCard from "./MiddleCard";
-import arrowBtn from "../../assets/images/arrowBtn.png"
+import arrowBtn from "../../assets/images/Vector.png"
 function MiddleCardDiv() {
   return (
     <div className="MiddleCardDiv ">

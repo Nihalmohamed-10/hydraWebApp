@@ -1,7 +1,7 @@
 import equipImg1 from "../../assets/images/equipImg1.png"
 import equipImg2 from "../../assets/images/equipImg2.png"
 import equipImg3 from "../../assets/images/equipImg3.png"
-import equipImg4 from "../../assets/images/equipImg4.png"
+
 export const equipData =[
     {
         "img":equipImg1,
@@ -22,7 +22,7 @@ export const equipData =[
         "btnContent":"Request For Quote"
     },
     {
-        "img":equipImg4,
+        "img":equipImg3,
         "key":4,
         "content":"Horizontal Multi-Stage Close Coupled Pump",
         "btnContent":"Request For Quote"
