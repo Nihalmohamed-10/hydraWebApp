@@ -1,12 +1,16 @@
 import React from "react";
 import './SpotLight.css';
 import SpotCards from "./SpotCards";
+import spotImg from "../../assets/images/spotImg.jpg"
+import spotCardImg1 from "../../assets/images/spotCardImg1.jpg"
+import spotCardImg2 from "../../assets/images/spotCardImg2.jpg"
+import spotCardImg3 from "../../assets/images/spotCardImg3.jpg"
 
 function SpotLights() {
   return (
     <div className="spotlight">
       <div className="imageWrapper">
-        <img src="./src/assets/images/image 1.jpg" alt="Spotlight" className="spotImage" />
+        <img src={spotImg} alt="Spotlight" className="spotImage" />
       </div>
       <div className="SpotContent">
         <div className="SpotHead">
@@ -20,9 +24,9 @@ function SpotLights() {
           </p>
         </div>
         <div className="SpotCardsMain">
-          <SpotCards img={'./src/assets/images/Group 94.jpg'} content='100% Customer Satisfaction'/>
-          <SpotCards img={'./src/assets/images/Group 95.jpg'} content='Help and Acess is Our Mission'/>
-          <SpotCards  img={'./src/assets/images/Group 96.jpg'} content='100% Quality Laboratory Products' />
+          <SpotCards img={spotCardImg1} content='100% Customer Satisfaction'/>
+          <SpotCards img={spotCardImg2} content='Help and Acess is Our Mission'/>
+          <SpotCards  img={spotCardImg3} content='100% Quality Laboratory Products' />
         </div>
         <div className="spotEnd">
           <p>Lorem ipsum dolor sit ameonse</p>

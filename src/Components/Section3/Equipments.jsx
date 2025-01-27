@@ -1,10 +1,10 @@
 import React from "react";
-import Equipment from "./Equipment.json";
+import {equipData} from "./Equipment.js";
 import "./Section3.css";
 function Equipments() {
   return (
     <div className="Equipment">
-      {Equipment.map((item, index) => (
+      {equipData.map((item, index) => (
         <div key={index} className="equipmentDIV">
           <div className="equipImg">
             <img src={item.img} alt="img" />

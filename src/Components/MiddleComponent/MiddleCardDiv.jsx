@@ -1,6 +1,7 @@
 import React from "react";
 import './Middle.css'
 import MiddleCard from "./MiddleCard";
+import arrowBtn from "../../assets/images/arrowBtn.png"
 function MiddleCardDiv() {
   return (
     <div className="MiddleCardDiv ">
@@ -22,7 +23,7 @@ function MiddleCardDiv() {
           <p className="Download2022">Download 2022 Brochure</p>
         </div>
         <div className="arrowbtn">
-          <img src="./src/assets/images/vector.png" alt="" />
+          <img src={arrowBtn} alt="" />
         </div>
       </div>
     </div>

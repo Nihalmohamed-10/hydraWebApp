@@ -1,10 +1,10 @@
 import React from 'react'
-import MidCard from './MidCard.json'
+import {data} from './MidCard.js'
 import './Middle.css'
 function MiddleCard() {
   return (
     <div className='MidCards'>
-     {MidCard.map((item,index)=>(
+     {data.map((item,index)=>(
         <div key={index} className='MidCrds'>
             <div className='MidCardImg'>
                 <img src={item.img}></img>

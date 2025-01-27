@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./AppBar.css";
-import img from '../../assets/images/logo.png'
+import logoimg from '../../assets/images/logo.png'
+import AppBarIcn from "../../assets/images/AppBarIcn.png"
 
 function AppBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ function AppBar() {
   return (
     <div className="appbar">
       <div className="appbarLogo">
-        <img src={img} alt="img" />
+        <img src={logoimg} alt="img" />
       </div>
 
       <div className={`appbarList ${isMenuOpen ? "show" : ""}`}>
@@ -27,7 +28,7 @@ function AppBar() {
 
       <div className="appBarContacts">
         <div className="appbarIcon">
-          <img src="./src/assets/images/Group 85.png" alt="" />
+          <img src={AppBarIcn} alt="" />
         </div>
         <div className="Contact">
           <div>+971 61245741</div>

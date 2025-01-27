@@ -1,12 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import footerImg from "../../assets/images/footerImg.jpg"
 function Footer() {
   return (
     <div className="footer">
       <div className="footBadgeDiv">
         <div className="footbadge">
           <img
-            src="./src/assets/images/ISO+badge-removebg-preview 1.jpg"
+            src={footerImg}
             alt=""
           />
         </div>
